@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cmimod",
+	"version": "${version}",
+	"name": "CMI Mod",
+	"description": "",
+	"authors": [
+		"KittenDaCat!"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/@KittenDaCat",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cmimod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kittendacat.cmimod.CMIMod"
+		],
+		"fabric-datagen": [
+			"net.kittendacat.cmimod.CMIModDataGenerator"
+		],
+		"client": [
+			"net.kittendacat.cmimod.CMIModClient"
+		]
+	},
+	"mixins": [
+		"cmimod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
