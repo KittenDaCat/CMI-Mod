@@ -19,8 +19,5 @@ public class ModItems {
 
         CMIMod.LOGGER.info("Registering Mod Items For " + CMIMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(BUCKET_OF_TNT);
-        });
     }
 }
