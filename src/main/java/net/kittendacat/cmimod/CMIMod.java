@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 
 public class CMIMod implements ModInitializer {
 
+    //test
+
 	public static final String MOD_ID = "cmimod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
