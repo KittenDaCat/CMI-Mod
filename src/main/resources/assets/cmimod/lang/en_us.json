@@ -1,3 +1,4 @@
 {
-  "item.cmimod.bucket_of_tnt": "TNT Bucket"
+  "item.cmimod.bucket_of_tnt": "TNT Bucket",
+  "itemGroup.cmimod.cmi_mod_items": "CMI Mod Items"
 }
