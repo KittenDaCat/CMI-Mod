@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cmimod:item/fishy_bucket_of_much_tnt"
+  }
+}

@@ -12,10 +12,13 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup CMI_MOD_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(CMIMod.MOD_ID, "cmi_mod_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BUCKET_OF_TNT))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.FISHY_BUCKET_OF_TNT))
                     .displayName(Text.translatable("itemGroup.cmimod.cmi_mod_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.BUCKET_OF_TNT);
+                        entries.add(ModItems.FISHY_BUCKET_OF_TNT);
+                        entries.add(ModItems.VERY_FISHY_BUCKET_OF_TNT);
+                        entries.add(ModItems.FISHY_BUCKET_OF_MUCH_TNT);
+                        entries.add(ModItems.VERY_FISHY_BUCKET_OF_MUCH_TNT);
                     }).build());
 
     public static void registerItemGroups() {

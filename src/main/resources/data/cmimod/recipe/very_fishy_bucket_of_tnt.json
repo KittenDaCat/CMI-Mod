@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "cmimod:fishy_bucket_of_tnt"
+    },
+    "B": {
+      "item": "minecraft:cod"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cmimod:very_fishy_bucket_of_tnt"
+  }
+}

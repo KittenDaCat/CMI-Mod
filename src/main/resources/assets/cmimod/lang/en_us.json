@@ -1,4 +1,8 @@
 {
-  "item.cmimod.bucket_of_tnt": "TNT Bucket",
+  "item.cmimod.fishy_bucket_of_tnt": "Fishy Bucket Of TNT",
+  "item.cmimod.very_fishy_bucket_of_tnt": "Very Fishy Bucket Of TNT",
+  "item.cmimod.fishy_bucket_of_much_tnt": "Fishy Bucket Of Much TNT",
+  "item.cmimod.very_fishy_bucket_of_much_tnt": "Very Fishy Bucket Of Much TNT",
+
   "itemGroup.cmimod.cmi_mod_items": "CMI Mod Items"
 }

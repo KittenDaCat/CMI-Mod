@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "cmimod:very_fishy_bucket_of_tnt"
+    },
+    {
+      "item": "cmimod:fishy_bucket_of_much_tnt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "cmimod:very_fishy_bucket_of_much_tnt"
+  }
+}
