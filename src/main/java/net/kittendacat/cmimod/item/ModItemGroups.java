@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.VERY_FISHY_BUCKET_OF_TNT);
                         entries.add(ModItems.FISHY_BUCKET_OF_MUCH_TNT);
                         entries.add(ModItems.VERY_FISHY_BUCKET_OF_MUCH_TNT);
+                        entries.add(ModItems.BUCKET_OF_SLIME);
                     }).build());
 
     public static void registerItemGroups() {
